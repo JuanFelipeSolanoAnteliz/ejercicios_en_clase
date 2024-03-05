@@ -8,6 +8,7 @@ horas_sumar = int(input("Ingrese el numero de horas a sumar:  "))
 
 hora_futura = (hora_actual+horas_sumar) % 24
 
-minutos_futuro = (minutos_actual+(horas_sumar*60)) % 60 
+minutos_futuro = (minutos_actual+(horas_sumar*60)) % 60
+
 
 print(f"la hora despues de {horas_sumar} sera: {hora_futura:02d}:{minutos_futuro:02d}")
